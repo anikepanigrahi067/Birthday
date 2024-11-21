@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #ff6f61;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  /* Buttons */
+  .buttons {
+    margin-top: 30px;
+  }
+  
+  button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #yes-btn {
+    background: #66bb6a;
+    color: white;
+  }
+  
+  #yes-btn:hover {
+    background: #4caf50;
+  }
+  
+  #no-btn {
+    background: #ef5350;
+    color: white;
+    position: relative;
+  }
+  
+  #no-btn:hover {
+    background: #e53935;
+  }
+  
